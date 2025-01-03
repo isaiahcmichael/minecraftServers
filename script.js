@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update the footer
     const footerUpdate = document.querySelector("footer p");
     if (footerUpdate) {
-        footerUpdate.textContent = `SoleStorm567603's Minecraft Servers List (Last Updated ${lastUpdatedDate})`;
+        footerUpdate.textContent = `SoleStorm567603's Minecraft Servers List (Last Updated ${lastUpdatedDate}) - Hosted using GitHub Pages!`;
     }
 });
 
