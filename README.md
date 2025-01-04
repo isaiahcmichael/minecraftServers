@@ -5,4 +5,5 @@ The pages in this repo may have been created with the help of one or more AI too
 1. [ChatGPT](https://chatgpt.com)
 
 Credits:
-[favicon.png](favicon.png) - [Minecraft Wiki](https://minecraft.wiki/w/File:Default_pack.png)
+1. [favicon.png](favicon.png) - [Minecraft Wiki](https://minecraft.wiki/w/File:Default_pack.png)
+1. Hosting - [GitHub Pages](https://pages.github.com)
