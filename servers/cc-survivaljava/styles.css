@@ -1,0 +1,69 @@
+/* Apply flexbox layout to make the footer stick to the bottom */
+html, body {
+    height: 100%; /* Ensure the body spans the full height of the viewport */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure the main content takes up available space, pushing the footer down */
+main {
+    flex: 1;
+    padding: 1rem;
+    background-color: #e6f2ff; /* Matches the light blue background */
+}
+
+header {
+    background-color: #004080; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#server-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 1rem;
+}
+
+.server-card {
+    background: #ffffff;
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.server-card h2 {
+    margin: 0 0 0.5rem;
+    color: #004080;
+}
+
+.server-card p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background: #004080; /* Dark blue footer */
+    color: #fff;
+    padding: 1rem 0;
+}
+/* Smaller warning box */
+#warning-box {
+background-color: #fff4e6; /* Light orange background */
+border: 1px solid #ffa726; /* Orange border */
+color: #d35400; /* Darker orange for text */
+padding: 0.01rem; /* Reduced padding */
+margin-bottom: 0.5rem; /* Reduced margin for spacing */
+border-radius: 4px; /* Slightly smaller rounded corners */
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for compact design */
+font-size: 1rem; /* Slightly smaller text */
+text-align: center;
+}
+
+#warning-box strong {
+font-weight: bold;
+}
