@@ -1,5 +1,5 @@
 const servers = [
-    { name: "CamoCruise's Server (Bedrock)", url: "CamoCruise.aternos.me:57270", description: "CamoCruise's Survival Server! Translated to Bedrock using GeyserMC! (Make sure that the port is 57270)", infourl: "cc-survivalbedrock", owner: "CamoCruise" },
+    { name: "CamoCruise's Server (Bedrock)", url: "spain-estate.gl.at.ply.gg:3988", description: "CamoCruise's Survival Server! Translated to Bedrock using GeyserMC! (Make sure that the port is 3988)", infourl: "cc-survivalbedrock", owner: "CamoCruise" },
 ];
 
 function loadServers() {
@@ -21,7 +21,7 @@ function loadServers() {
 
 document.addEventListener('DOMContentLoaded', loadServers);
 // Define the last updated date string
-const lastUpdatedDate = "01/05/2025";
+const lastUpdatedDate = "02/14/2025";
 
 // Update the "Last Updated" sections in the HTML
 document.addEventListener("DOMContentLoaded", () => {

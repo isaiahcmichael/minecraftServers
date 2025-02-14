@@ -1,5 +1,5 @@
 const servers = [
-    { name: "Survival Server (Java)", url: "SoleStorm567603.aternos.me:25565", description: "The Survival Server for Java Edition! (Uses default ports for Minecraft Java)", infourl: "survivaljava", owner: "SoleStorm567603" },
+    { name: "Survival Server (Java)", url: "medical-locked.gl.joinmc.link:25565", description: "The Survival Server for Java Edition! (Uses default ports for Minecraft Java)", infourl: "survivaljava", owner: "SoleStorm567603" },
 ];
 
 function loadServers() {
@@ -21,7 +21,7 @@ function loadServers() {
 
 document.addEventListener('DOMContentLoaded', loadServers);
 // Define the last updated date string
-const lastUpdatedDate = "01/05/2025";
+const lastUpdatedDate = "02/14/2025";
 
 // Update the "Last Updated" sections in the HTML
 document.addEventListener("DOMContentLoaded", () => {

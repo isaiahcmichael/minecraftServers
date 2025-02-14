@@ -1,5 +1,5 @@
 const servers = [
-    { name: "Survival Server (Bedrock)", url: "SoleStorm567603.aternos.me:50031", description: "The Survival Server for Java Edition, but translated using GeyserMC! (Make sure that the port is 50031)", infourl: "survivalbedrock", owner: "SoleStorm567603" },
+    { name: "Survival Server (Bedrock)", url: "spain-estate.gl.at.ply.gg:3988", description: "The Survival Server for Java Edition, but translated using GeyserMC! (Make sure that the port is 3988)", infourl: "survivalbedrock", owner: "SoleStorm567603" },
 ];
 
 function loadServers() {
@@ -21,7 +21,7 @@ function loadServers() {
 
 document.addEventListener('DOMContentLoaded', loadServers);
 // Define the last updated date string
-const lastUpdatedDate = "01/05/2025";
+const lastUpdatedDate = "02/14/2025";
 
 // Update the "Last Updated" sections in the HTML
 document.addEventListener("DOMContentLoaded", () => {
